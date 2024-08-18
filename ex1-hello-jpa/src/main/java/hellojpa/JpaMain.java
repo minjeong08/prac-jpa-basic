@@ -29,7 +29,7 @@ public class JpaMain {
             System.out.println("m = " + m.getTeam().getClass());
 
             System.out.println("==========================");
-            m.getTeam().getName(); // 초기화
+            System.out.println("teamName = " + m.getTeam().getName());
             System.out.println("==========================");
 
             tx.commit();
