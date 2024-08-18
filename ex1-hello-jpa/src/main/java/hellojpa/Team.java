@@ -18,7 +18,6 @@ public class Team {
     private List<Member> members = new ArrayList<>();
 
     public void addMember(Member member) {
-        member.setTeam(this);
         members.add(member);
     }
 
